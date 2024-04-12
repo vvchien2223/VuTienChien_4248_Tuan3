@@ -10,22 +10,24 @@ namespace VuTienChien_4248_Tuan3.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<String>(
+            migrationBuilder.AddColumn<string>(
                 name: "Address",
                 table: "AspNetUsers",
                 type: "nvarchar(max)",
-                nullable: true);
-            migrationBuilder.AddColumn<String>(
+                nullable: true
+                );
+            migrationBuilder.AddColumn<string>(
                 name: "Age",
                 table: "AspNetUsers",
-                type: "nvarcahr(max",
-                nullable: true);
-            migrationBuilder.AddColumn<String>(
+                type: "nvarchar(max)",
+                nullable: true
+                );
+            migrationBuilder.AddColumn<string>(
                 name: "FullName",
-                table: "AspNetUser",
-                type: "navarchar(max)",
-                nullable:false,
-                defaultValue: "");
+                table: "AspNetUsers",
+                type: "nvarchar(max)",
+                nullable: false
+                );
         }
 
         /// <inheritdoc />
